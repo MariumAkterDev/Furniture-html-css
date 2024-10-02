@@ -1,0 +1,338 @@
+/* ============= font part starts ================ */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* --------------- font part ends ----------------- */
+/* ================ common css part starts ================== */
+*{
+ margin: 0;
+ padding: 0;
+ outline: 0;
+ box-sizing: border-box;  
+}
+h1,h2,h3,h4,h5,h6,ul,ol{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.common_head h2{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: var(--Montserrat);
+    color: var(--light_black);
+    text-align: center;
+    margin-bottom: 20px;
+}
+.common_head p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--Montserrat);
+    color: var(--ash_black);
+    text-align: center;
+}
+:root{
+    --Montserrat: "Montserrat", sans-serif;
+    --light_black: #333333;
+    --brand_color: #054C73;
+    --ash_black: #666666;
+}
+/*  --------------- common css part ends -------------------- */
+/* ================ nav css part starts ================== */
+.main_menu{
+    padding-top: 43px;
+    padding-bottom: 38px;
+}
+.main_menu ul{
+    gap: 70px;
+}
+.main_menu ul li a{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: var(--Montserrat);
+    color: var(--light_black) !important;
+    transition: all linear 0.2s;
+}
+.main_menu ul li a:hover{
+    color: orangered !important;
+}
+/*  --------------- nav css part ends -------------------- */
+/* ================ banner css part starts ================== */
+#banner{
+    padding-top: 155px;
+    padding-bottom: 151px;
+    background: url(../images/banner_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banner_card{
+    display: flex;
+    justify-content: end;
+    padding-top: 155px;
+    padding-bottom: 151px;
+}
+.banner_card .banner_main_card{
+    width: 643px;
+    padding: 37px 58px 41px 39px;
+    background: #DFE9F4;
+    border-radius: 10px;
+}
+.banner_card .banner_main_card h2{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--Montserrat);
+    color: var(--light_black);
+    letter-spacing: 3px;
+}
+.banner_card .banner_main_card h1{
+    font-size: 52px;
+    font-weight: 700;
+    font-family: var(--Montserrat);
+    color: var(--brand_color);
+    margin: 20px 0;
+    width: 421px;
+}
+.banner_card .banner_main_card p{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--Montserrat);
+    color: var(--brand_color);
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 546px;
+}
+.banner_card .banner_main_card a{
+    padding: 25px 72px;
+    border-radius: 50px;
+    background: var(--brand_color);
+    font-size: 16px;
+    font-weight: 700;
+    font-family: var(--Montserrat);
+    color: #ffffff;
+    transition: all linear 0.2s;
+}
+.banner_card .banner_main_card a:active{
+    transform: scale(0.9);
+}
+/*  --------------- banner css part ends -------------------- */
+/* ================ service css part starts ================== */
+#service{
+    padding-top: 46px;
+    padding-bottom: 49px;
+    background: #F2F5FF;
+}
+.service_card{
+    display: flex;
+    gap: 27px;
+    align-items: center;
+}
+.service_card .service_text h2{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: var(--Montserrat);
+    color: var(--light_black);
+    margin-bottom: 6px;
+}
+.service_card .service_text p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--Montserrat);
+    color: var(--light_black);
+}
+/*  --------------- service css part ends -------------------- */
+/* ================ collection css part starts ================== */
+#collection{
+    padding-top: 60px;
+    padding-bottom: 66px;
+}
+#collection .collection_image img{
+    width: 355px;
+}
+#collection .collection_image{
+  margin-top: 87px;
+  transition: all linear 0.4s;
+}
+#collection .collection_image:hover{
+    margin-top: 20px;
+}
+/*  --------------- collection css part ends -------------------- */
+/* ================ space css part starts ================== */
+#space{
+    background: #F2F5FF;
+    padding-bottom: 55px;
+}
+#space .space_text{
+    padding-top: 295px;
+    width: 489px;
+}
+#space .space_text h2{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: var(--Montserrat);
+    color: var(--light_black);
+}
+#space .space_text p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--Montserrat);
+    color: var(--ash_black);
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#space .space_button a{
+    padding: 24px 57px;
+    border-radius: 50px;
+    background-color: var(--brand_color);
+    font-size: 16px;
+    font-weight: 700;
+    font-family: var(--Montserrat);
+    color: #ffffff;
+    transition: all linear 0.1s;
+}
+#space .space_button a:hover{
+    background-color: #62afd8;
+}
+#space .space_image{
+    margin-top: 55px;
+}
+.space_image img{
+    width: 568px;
+}
+/*  --------------- space css part ends -------------------- */
+/* ================ browse css part starts ================== */
+#browse{
+    padding-top: 55px;
+    padding-bottom: 121px;
+}
+#browse .browse_image_card{
+    text-align: center;
+} 
+#browse .browse_image{
+    margin-top: 50px;
+    overflow: hidden;     
+}
+#browse .browse_image img{
+    width: 381px;
+    transition: all linear 0.4s; 
+}
+#browse .browse_image:hover img{
+    transform: scale(1.2);
+}
+#browse .browse_image_text a{
+    padding-top: 30px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: var(--Montserrat);
+    color: var(--light_black);
+}
+/*  --------------- browse css part ends -------------------- */
+/* ================ how it works css part starts ================== */
+#works .works_card{
+    margin-top: 50px;
+    margin-bottom: 200px;
+    text-align: center;
+}
+#works .works_card_text a{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--Montserrat);
+    color: var(--light_black);
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+#works .works_card_text p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--Montserrat);
+    color: var(--ash_black);
+    margin-bottom: 198px;
+}
+#works .works_card img{
+    width: 381px;
+    transition: all linear 0.1s;
+}
+#works .works_card:hover img {
+    opacity: 0.6;
+}
+/*  --------------- how it work css part ends -------------------- */
+/* ================ join css part starts ================== */
+#join{
+    background: #F2F5FF;
+    padding-top: 59px;
+    padding-bottom: 61px;
+}
+#join .common_head p{
+    width: 514px;
+    margin: auto;
+}
+#join .mail_input{
+    width: 486px;
+    height: 70px;
+    border: 1px solid var(--brand_color);
+    margin: 50px auto 0;
+    border-radius: 3px;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+#join .mail_input input{
+    width: 320px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 21px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--Montserrat);
+    color: #011C42;
+}
+#join .mail_input button{
+    width: 153px;
+    height: 70px;
+    background: var(--brand_color);
+    font-size: 16px;
+    font-weight: 700;
+    font-family: var(--Montserrat);
+    color: #ffffff;
+    border: 1px solid #011C42;
+    border-radius: 3px;  
+    transition: all linear 0.1s;
+}
+#join .mail_input button:hover{
+    background: var(--ash_black);
+    border-radius: none;
+}
+/*  --------------- join css part ends -------------------- */
+/* ================ footer css part starts ================== */
+#footer_part{
+    background-color: #03344F;
+    padding-top: 49px;
+    padding-bottom: 89px;
+}
+#footer_part .footer_text a{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--Montserrat);
+    color: #ffffff;
+}
+#footer_part .footer_text p{
+    width: 400px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--Montserrat);
+    color: #ffffff;
+    margin-top: 34px;
+    margin-bottom: 21px;
+}
+#footer_part .footer_image{
+    margin-top: 34px;
+    transition: all linear 0.2s;
+    display: flex;
+    gap: 21px;
+}
+#footer_part .footer_image img:hover{
+    opacity: 0.7;
+}
+/*  --------------- footer css part ends -------------------- */
+/* ----------------------------------------------------------- */
